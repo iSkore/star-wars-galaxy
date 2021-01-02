@@ -40,7 +40,7 @@ let planetsCombined = JSON.parse( fs.readFileSync( './planets-combined.geojson',
 			delete data.properties.ref;
 			delete data.properties.status;
 
-			data.properties.id = i++;
+			data.properties.id = ++i;
 
 			return data;
 		}
