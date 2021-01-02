@@ -1,0 +1,64 @@
+{
+	"name": "template-vue-dashboard",
+	"version": "1.0.6",
+	"description": "Basic vue dashboard",
+	"private": true,
+	"main": "main.js",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"@mdi/font": "^5.8.55",
+		"axios": "^0.21.0",
+		"moment": "^2.29.1",
+		"pino": "^6.8.0",
+		"vue": "^2.6.12",
+		"vuelayers": "^0.11.30",
+		"vuetify": "^2.3.21",
+		"vuex": "^3.6.0",
+		"vuex-router-sync": "^5.0.0"
+	},
+	"devDependencies": {
+		"@babel/parser": "^7.12.10",
+		"@turf/turf": "^5.1.6",
+		"@vue/cli-plugin-babel": "^4.5.9",
+		"@vue/cli-plugin-eslint": "^4.5.9",
+		"@vue/cli-service": "^4.5.9",
+		"babel-eslint": "8.0.3",
+		"eslint": "6.8.0",
+		"eslint-plugin-vue": "6.2.2",
+		"sass": "^1.30.0",
+		"sass-loader": "^10.1.0",
+		"vue-cli-plugin-vuetify": "^2.0.8",
+		"vue-meta": "^2.4.0",
+		"vue-router": "^3.4.9",
+		"vue-template-compiler": "^2.6.12",
+		"vuetify-loader": "^1.6.0"
+	},
+	"postcss": {
+		"plugins": {
+			"autoprefixer": {}
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mi-sec/template-vue-dashboard.git"
+	},
+	"keywords": [
+		"vue",
+		"dashboard",
+		"template"
+	],
+	"author": "MI-SEC",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mi-sec/template-vue-dashboard/issues"
+	},
+	"homepage": "https://github.com/mi-sec/template-vue-dashboard#readme"
+}
