@@ -13,7 +13,10 @@ const config = {
 };
 
 if ( process.env.GITHUB_ACTIONS === 'true' ) {
-	config.publicPath = `/${ process.env.GITHUB_REPOSITORY.split( '/' ).pop().trim() }/`;
+	config.publicPath = `/${
+		process.env.GITHUB_REPOSITORY.split( '/' )
+			.filter( ( p ) => !!p ).pop().trim()
+	}/`;
 }
 
 module.exports = config;
