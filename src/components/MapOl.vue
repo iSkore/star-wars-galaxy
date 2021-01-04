@@ -34,7 +34,7 @@ export default {
 			source: new SourceVector( {
 				format: new GeoJSON(),
 				// url: '/data/cregion.geojson',
-				url: '/data/planets-reprojected.geojson',
+				url: 'data/planets-reprojected.geojson',
 				wrapDateLine: false,
 				wrapX: false,
 				noWrap: true
